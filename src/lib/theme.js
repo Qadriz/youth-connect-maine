@@ -1,0 +1,102 @@
+/** Youth Connect Maine brand palette — matched to logo */
+export const BRAND = {
+  // Maine silhouette
+  navy: '#104067',
+  navyDark: '#0B2F4A',
+  navyDeep: '#071428',
+  // Brush circle + water waves
+  teal: '#66C2D1',
+  tealLight: '#8DD4E0',
+  tealSoft: '#E8F6F8',
+  // Figure accents
+  orange: '#EF7F31',
+  lime: '#77BC43',
+  magenta: '#9E1F81',
+  cyan: '#66C2D1',
+  gray: '#6B7280',
+  grayLight: '#9CA3AF',
+  bgLight: '#F7FBFC',
+};
+
+export const ACCENTS = [BRAND.orange, BRAND.lime, BRAND.magenta, BRAND.teal, BRAND.lime];
+
+export const LIGHT = {
+  bg: '#FFFFFF',
+  bgSoft: BRAND.bgLight,
+  bgHero: BRAND.navyDeep,
+  // White bar so black logo text + colorful emblem stay crisp
+  nav: 'rgba(255,255,255,.96)',
+  navBdr: 'rgba(102,194,209,.45)',
+  navShadow: '0 1px 14px rgba(16,64,103,.07)',
+  text: BRAND.navyDark,
+  textSub: BRAND.gray,
+  accent: BRAND.teal,
+  accentViv: BRAND.tealLight,
+  accentPale: 'rgba(102,194,209,.14)',
+  accentBdr: 'rgba(102,194,209,.4)',
+  cardBg: '#FFFFFF',
+  cardBdr: 'rgba(16,64,103,.1)',
+  cardShadow: '0 8px 32px rgba(16,64,103,.08)',
+  statsBg: BRAND.bgLight,
+  statsBdr: 'rgba(16,64,103,.1)',
+  pill: BRAND.tealSoft,
+  pillBdr: 'rgba(102,194,209,.35)',
+  pillText: BRAND.navyDark,
+  btnPrimary: BRAND.teal,
+  btnPrimaryHover: BRAND.tealLight,
+  btnOutline: BRAND.navy,
+  ctaBg: `linear-gradient(135deg, ${BRAND.navyDark} 0%, ${BRAND.navy} 100%)`,
+  ctaText: '#FFFFFF',
+  ctaSub: 'rgba(255,255,255,.65)',
+  linkColor: BRAND.navy,
+  inputBg: 'rgba(16,64,103,.04)',
+  inputBorder: 'rgba(16,64,103,.14)',
+  trustBar: BRAND.navy,
+};
+
+export const DARK = {
+  bg: BRAND.navyDeep,
+  bgSoft: '#0f2340',
+  bgHero: BRAND.navyDeep,
+  // Still light bar in dark mode — logo text is black and needs contrast
+  nav: 'rgba(255,255,255,.97)',
+  navBdr: 'rgba(102,194,209,.5)',
+  navShadow: '0 1px 14px rgba(0,0,0,.25)',
+  text: '#E8ECF2',
+  textSub: BRAND.grayLight,
+  accent: BRAND.tealLight,
+  accentViv: '#A8E0D8',
+  accentPale: 'rgba(102,194,209,.15)',
+  accentBdr: 'rgba(102,194,209,.35)',
+  cardBg: 'rgba(15,35,64,.85)',
+  cardBdr: 'rgba(102,194,209,.2)',
+  cardShadow: '0 8px 32px rgba(0,0,0,.3)',
+  statsBg: 'rgba(255,255,255,.02)',
+  statsBdr: 'rgba(255,255,255,.06)',
+  pill: '#0f2340',
+  pillBdr: 'rgba(102,194,209,.3)',
+  pillText: BRAND.tealLight,
+  btnPrimary: BRAND.teal,
+  btnPrimaryHover: BRAND.tealLight,
+  btnOutline: '#E8ECF2',
+  ctaBg: `linear-gradient(135deg, rgba(102,194,209,.2) 0%, rgba(102,194,209,.05) 100%)`,
+  ctaText: '#E8ECF2',
+  ctaSub: 'rgba(232,236,242,.5)',
+  linkColor: BRAND.navy,
+  inputBg: 'rgba(255,255,255,.05)',
+  inputBorder: 'rgba(255,255,255,.1)',
+  trustBar: '#0a1628',
+};
+
+export const STORE = {
+  name: 'Youth Connect Maine',
+  shortName: 'YCM',
+  tagline: 'Connect. Engage. Empower.',
+  city: 'Maine',
+  state: 'Maine',
+  country: 'USA',
+  email: 'info@youthconnectmaine.org',
+  phone: '',
+  status: '501©(3) Nonprofit',
+  launchYear: 2026,
+};
