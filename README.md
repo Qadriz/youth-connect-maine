@@ -5,12 +5,32 @@ A nonprofit website for **Youth Connect Maine**, inspired by [Youth Connekt Afri
 ## Quick Start
 
 ```bash
-cd youth-main
 npm install
 npm run dev
 ```
 
 Open [http://localhost:3003](http://localhost:3003)
+
+## Docker
+
+Production (recommended):
+
+```bash
+docker compose up --build -d
+```
+
+Open [http://localhost:3003](http://localhost:3003)
+
+```bash
+docker compose logs -f web
+docker compose down
+```
+
+Development inside a container (hot reload):
+
+```bash
+docker compose --profile dev up web-dev
+```
 
 ## Pages
 
