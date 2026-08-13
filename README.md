@@ -48,7 +48,8 @@ docker compose --profile dev up web-dev
 ## Assets
 
 - Logo: `public/logo.png`
-- Hero video: `public/Maine.mp4` (from `/MAINE/Maine.mp4`)
+- Hero video: `public/Maine.mp4` (~3.5 MB web-optimized; original was 45 MB)
+- Hero poster: `public/Maine-poster.jpg`
 
 ## Brand Colors
 

@@ -37,7 +37,12 @@ export default function HomePage() {
       {/* Hero with video background — inspired by Youth Connekt Africa */}
       <section style={{ position: 'relative', minHeight: '100vh', display: 'flex', alignItems: 'center', overflow: 'hidden' }}>
         <video
-          autoPlay muted loop playsInline
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          poster="/Maine-poster.jpg"
           style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         >
           <source src="/Maine.mp4" type="video/mp4" />
