@@ -101,14 +101,19 @@ export const QUOTES = [
     role: 'Our Mission',
   },
   {
-    text: 'Demographic dividends do not come automatically; they have to be earned. To realize the dividend, we have to invest in the empowerment, education, and employment of our young people.',
-    author: 'H.E Nana Akufo-Addo',
-    role: 'President of the Republic of Ghana',
+    text: 'We cannot always build the future for our youth, but we can build our youth for the future.',
+    author: 'Franklin D. Roosevelt',
+    role: '32nd President of the United States',
   },
   {
-    text: 'Leaders cannot lead alone. They can only set the tempo and raise the level of ambition by involving young people directly — making them more self-reliant, confident, and innovative than previous generations.',
-    author: 'H.E Paul Kagame',
-    role: 'President of the Republic of Rwanda',
+    text: 'It is easier to build strong children than to repair broken men.',
+    author: 'Frederick Douglass',
+    role: 'Abolitionist, writer, and statesman',
+  },
+  {
+    text: 'Children are the world’s most valuable resource and its best hope for the future.',
+    author: 'John F. Kennedy',
+    role: '35th President of the United States',
   },
 ];
 
