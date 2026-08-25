@@ -7,11 +7,20 @@ services:
     container_name: youth-connect-maine
     restart: unless-stopped
     ports:
-      - "3003:3003"
+      - "7003:3003"
+    env_file:
+      - .env
     environment:
       NODE_ENV: production
       PORT: 3003
       HOSTNAME: 0.0.0.0
+      CONTACT_TO_EMAIL: youthconnectmaine@gmail.com
+      SITE_URL: https://youth-connect-maine.org
+      EMAIL_FROM: Youth Connect Maine <onboarding@resend.dev>
+      RESEND_API_KEY: ${RESEND_API_KEY:-}
+    networks:
+      - default
+      - globaltransact
     healthcheck:
       test:
         [
@@ -33,7 +42,7 @@ services:
     container_name: youth-connect-maine-dev
     working_dir: /app
     ports:
-      - "3003:3003"
+      - "7004:3003"
     environment:
       NODE_ENV: development
     volumes:
@@ -43,3 +52,8 @@ services:
 
 volumes:
   youth_connect_node_modules:
+
+networks:
+  globaltransact:
+    external: true
+    name: ubuntu-exchange_globaltransact-network

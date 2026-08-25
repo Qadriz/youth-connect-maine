@@ -95,7 +95,7 @@ export const STORE = {
   city: 'Maine',
   state: 'Maine',
   country: 'USA',
-  email: 'info@youthconnectmaine.org',
+  email: 'info@youth-connect-maine.org',
   phone: '',
   status: '501©(3) Nonprofit',
   launchYear: 2026,
